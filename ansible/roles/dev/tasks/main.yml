@@ -24,7 +24,7 @@
         - mosh
         - mtr
         - nmap
-        - pinentry-mac
+#        - pinentry-mac
         - pwgen
         - sloccount
         - siege
@@ -37,9 +37,13 @@
       name:
         - docker
         - font-source-code-pro
-        - keybase
-        - ngrok
-        - postico
+        - font-iosevka-nerd-font
+        - font-iosevka-etoile
+        - font-liberation-nerd-font
+        - font-victor-mono-nerd-font
+#        - keybase
+#        - ngrok
+#        - postico
         - visual-studio-code
 
   - name: Ensure python and node version managers are installed
