@@ -44,7 +44,7 @@
 #        - keybase
 #        - ngrok
 #        - postico
-        - visual-studio-code
+#        - visual-studio-code
 
   - name: Ensure python and node version managers are installed
     homebrew:

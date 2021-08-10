@@ -2,10 +2,10 @@
   - name: Ensure my productivity tools are installed
     homebrew_cask:
       name:
-        - 1password
+        # - 1password
         - alfred
         - bettertouchtool
-        - bluetoothconnector
+        # - bluetoothconnector
         - bartender
         - choosy
         - google-chrome
@@ -20,11 +20,12 @@
         - permute
         - protonvpn
         - soulver
-        - slack
+        # - slack
         - sketch
         - skype
+        - keka
         # - transmission
-        - zoomus
+        - zoom
         # - yandex
 
   # - name: Ensure my streaming tools are installed
