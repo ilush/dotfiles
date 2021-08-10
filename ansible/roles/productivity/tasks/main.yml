@@ -12,8 +12,8 @@
         - gifox
         - cleanmymac
         - iina
-        - ilya-birman-typography-layout
-        - karabiner-elements
+        # - ilya-birman-typography-layout
+        # - karabiner-elements
         - krisp
         - loom
         - notion
@@ -23,20 +23,20 @@
         - slack
         - sketch
         - skype
-        - transmission
+        # - transmission
         - zoomus
-        - yandex
+        # - yandex
 
-  - name: Ensure my streaming tools are installed
-    homebrew_cask:
-      name:
-        - audio-hijack
-        - fission
-        - loopback
-        - obs
-        - piezo
-        - pretzel
-        - soundsource
+  # - name: Ensure my streaming tools are installed
+  #   homebrew_cask:
+  #     name:
+  #       - audio-hijack
+  #       - fission
+  #       - loopback
+  #       - obs
+  #       - piezo
+  #       - pretzel
+  #       - soundsource
 
   - name: Reduce macos noise
     osx_defaults:
